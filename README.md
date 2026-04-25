@@ -1,6 +1,6 @@
 # The Power of Recursive Transformers: A Case Study in Chess
 
-We investigate whether recursive shared-weight Transformers can match standard untied Transformers for searchless chess evaluation. We adapt the **Tiny Recursive Model (TRM)** (Jolicoeur-Martineau 2025) to the Searchless Chess setting and compare it against baseline Transformer models across multiple scales. Both model families predict Stockfish win-probability buckets from tokenised FEN positions — no search at inference time.
+We investigate whether recursive shared-weight Transformers can match standard untied Transformers for searchless chess evaluation. We adapt the **Tiny Recursive Model (TRM)** (Jolicoeur-Martineau 2025) to the Searchless Chess setting and compare it against baseline Transformer models across multiple scales. Both model families predict Stockfish win-probability buckets from tokenised FEN positions.
 
 > *Our results show that all trained models learn meaningful chess representations, but standard Transformers consistently outperform the recursive models at comparable scales.*
 
